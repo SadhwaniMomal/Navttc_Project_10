@@ -1,0 +1,17 @@
+.container {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  /* overflow: hidden; */
+}
+
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.container:hover img {
+  transform: translate(30px, 50px); /* Change position on hover */
+}
